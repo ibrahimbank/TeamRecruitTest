@@ -73,7 +73,13 @@ function CompanyCard() {
               width={"100%"}
               spacing={2}
             >
-              <p>{da.name}</p>
+              <p
+                style={{
+                  color: "#858ca5",
+                }}
+              >
+                {da.name}
+              </p>
               <div
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
@@ -120,7 +126,13 @@ function CompanyCard() {
         sx={{ padding: "2rem" }}
       >
         <Stack spacing={1}>
-          <p>You have to Pay</p>
+          <p
+            style={{
+              color: "#858ca5",
+            }}
+          >
+            You have to Pay
+          </p>
           <h4>
             549.99{" "}
             <span style={{ color: "#878fa6", fontSize: "12px" }}>USD</span>
